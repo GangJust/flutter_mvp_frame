@@ -1,7 +1,7 @@
 
 
-import 'package:mvpframe/app/contract/home_contract.dart';
-import 'package:mvpframe/base/base_i_model.dart';
+import '../../app/contract/home_contract.dart';
+import '../../base/base_i_model.dart';
 
 ///Home M层(数据操作层)
 class HomeModelImpl extends BaseIModel implements HomeModel {

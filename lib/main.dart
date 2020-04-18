@@ -1,6 +1,7 @@
 
 import 'package:flutter/material.dart';
-import 'package:mvpframe/app/view/home.dart';
+
+import 'app/view/home.dart';
 
 void main() async {
   runApp(App());

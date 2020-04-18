@@ -1,8 +1,8 @@
-
 import 'package:flutter/material.dart';
-import 'package:mvpframe/app/contract/home_contract.dart';
-import 'package:mvpframe/app/presenter/home_presenter_impl.dart';
-import 'package:mvpframe/base/base_i_view.dart';
+
+import '../../app/contract/home_contract.dart';
+import '../../app/presenter/home_presenter_impl.dart';
+import '../../base/base_i_view.dart';
 
 ///Home V层(UI层)
 class Home extends BaseView {
@@ -28,7 +28,7 @@ class _HomeState extends BaseViewState<BaseView, HomePresenter>
   }
 
   @override
-    Widget setView(BuildContext context) {
+  Widget setView(BuildContext context) {
     // TODO: implement setView
     return Scaffold(
       appBar: AppBar(title: Text('MVP通用框架')),

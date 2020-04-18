@@ -1,6 +1,6 @@
-import 'package:mvpframe/base/base_i_model.dart';
-import 'package:mvpframe/base/base_i_presenter.dart';
-import 'package:mvpframe/base/base_i_view.dart';
+import '../../base/base_i_model.dart';
+import '../../base/base_i_presenter.dart';
+import '../../base/base_i_view.dart';
 
 ///contract
 
